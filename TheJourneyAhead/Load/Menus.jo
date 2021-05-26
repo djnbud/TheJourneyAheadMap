@@ -1,0 +1,50 @@
+﻿Load=[Title]
+
+Load=[Font]
+[times_new_yorker]
+
+Load=[Image][ImagePosition]
+[DerpChicken2][500 10]
+
+Load=[Item][LinkType][LinkID][Position][FontColor][RectPosition]
+[New Game][Screen][NewGameScreen][300 220][255 0 0][290 220 120 35]
+[Load Game][Screen][LoadGameScreen][295 255][255 0 0][285 255 130 35]
+[Options][Screen][OptionsScreen][340 290][255 0 0][330 290 100 35]
+[Exit][Screen][Exit][340 325][255 0 0][330 325 60 35]
+
+EndLoad=[Title]
+
+Load=[NewGameScreen]
+
+Load=[Font]
+[times_new_yorker]
+
+Load=[Image][ImagePosition]
+[DerpChicken2][500 10]
+
+Load=[Item][LinkType][LinkID][Position][FontColor][RectPosition]
+[Create Character][Screen][GameplayScreen][340 490][255 0 0][330 490 200 35]
+[Back][Screen][TitleScreen][340 525][255 0 0][330 525 60 35]
+
+EndLoad=[NewGameScreen]
+
+Load=[LoadGameScreen]
+
+Load=[Font]
+[times_new_yorker]
+
+Load=[Item][LinkType][LinkID][Position][FontColor][RectPosition]
+[Back][Screen][TitleScreen][340 625][255 0 0][330 625 60 35]
+
+EndLoad=[LoadGameScreen]
+
+Load=[Options]
+
+Load=[Font]
+[times_new_yorker]
+
+Load=[Item][LinkType][LinkID][Position][FontColor][RectPosition]
+[Toggle Full Screen][Option][FullScreen][200 290][255 0 0][190 290 210 35]
+[Back][Screen][TitleScreen][340 325][255 0 0][330 325 60 35]
+
+EndLoad=[Options]
